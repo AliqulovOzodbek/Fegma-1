@@ -1,0 +1,198 @@
+.k1{
+    position: absolute;
+    width: 100%;
+    height: 750px;
+}
+.j1{
+    color: aliceblue;
+    position: relative;
+    top: 100px;
+    font-size: 50px;
+    text-align: center;
+}
+.j2{
+    position: relative;
+    color: aliceblue;
+    font-family: sans-serif ;
+    font-size: 20px;
+    top: 70px;
+    width: 800px;
+    left: 250px;
+text-align:center;
+}
+.j3{ position: relative;
+        text-decoration: none; 
+        font-weight: bold; 
+        color:rgb(237, 238, 241);
+        background-color:aliceblue;
+        padding: 10px 30px;
+        border:3px solid;
+        font-family: sans-serif;
+        top: 120px;
+        left:450px;
+        width: 50px;
+           text-align: center;
+           border-radius: 50px;
+           font-size:15px;
+           background-color:gold;
+             }    
+    .j3:hover{
+            color: aliceblue;
+            background-color: rgb(244, 158, 9);
+    }
+    .j4{
+        position: relative;
+        text-decoration: none; 
+        font-weight: bold; 
+        color:rgb(243, 247, 247);
+       padding: 10px 30px;
+        border:3px solid;
+        font-family: sans-serif;
+        top: 120px;
+        left:500px;
+        width: 50px; 
+        border-radius: 50px; 
+        }
+    .j4:hover{
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
+    .j5{
+        position: relative;
+        font-family: sans-serif;
+        font-size: 20px;
+        top: 150px;
+        text-align: center;
+        color: aliceblue;
+        }
+    .j6{
+        color: aliceblue;
+    }
+    .j6:hover{
+        text-decoration: none;
+    }
+    .q1{
+        position: relative;
+        background-color:burlywood;
+        width: 250px;
+        height: 240px;
+        border-radius: 30px;
+        top: 180px;
+        left: 70px;
+    }
+    .q2{
+        position: relative;
+        background-color:burlywood;
+        width: 250px;
+        height: 240px;
+        border-radius: 30px;
+        top: -60px;
+        left: 380px;
+    }
+    .q3{
+        position: relative;
+        background-color:burlywood;
+        width: 250px;
+        height: 240px;
+        border-radius: 30px;
+        top: -295px;
+        left: 700px;
+    }
+    .q4{
+        position: relative;
+        background-color:burlywood;
+        width: 250px;
+        height: 240px;
+        border-radius: 30px;
+        top: -530px;
+        left: 1030px;
+    }
+    .w1{
+        position: relative;
+        width: 100%;
+        height: 700px;
+        border: 2px solid red;
+        top: -450px;
+    }
+    .m2{
+        position: relative;
+        background-color: coral;
+        width: 370px;
+        height:370px ;
+border-radius: 50%;
+left: 80px;
+top: 150px;
+    }
+    .m1{
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        left: 10px;
+        top:10px;
+
+    }
+    .bi{
+        position: relative;
+        color: aliceblue;
+        left: 70px;
+        top: 30px;
+
+
+    }
+    .a1{
+        position: relative;
+        font-family: sans-serif;
+        color: aliceblue;
+        text-align: center;
+        top:50px ;
+        font-size: 25px;
+    }
+    .bi1{
+        position: relative;
+        color: aliceblue;
+        left: 70px;
+        top: 30px;
+        
+    }
+    .a2{
+        position: relative;
+        font-family: sans-serif;
+        color: aliceblue;
+        text-align: center;
+        top:50px ;
+        font-size: 25px;
+    }
+    .bi2{
+        position: relative;
+        color: aliceblue;
+        left: 70px;
+        top: 30px;
+    }
+    .a3{
+        position: relative;
+        font-family: sans-serif;
+        color: aliceblue;
+        text-align: center;
+        top:50px ;
+        font-size: 25px;
+    }
+    .bi4{
+        position: relative;
+        color: aliceblue;
+        left: 70px;
+        top: 30px;
+    }
+    .a4{
+        position: relative;
+        font-family: sans-serif;
+        color: aliceblue;
+        text-align: center;
+        top:50px ;
+        font-size: 25px;
+    }
+    .z1{
+        position: relative;
+        font-size: 60px;
+        top: -200px;
+        left: 500px; ;

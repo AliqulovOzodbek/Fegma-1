@@ -1,0 +1,330 @@
+@import "colors";
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    .div1{
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        width: 75em;
+        height: 30em;
+        top: 10em;
+        left: 5em;
+        z-index: -1;
+        h1{
+            color: $color1;
+            font-size: 8em;
+            font-family: sans-serif;
+            position: absolute;
+            left: .5em;
+            right: 10em;
+        }
+        .img1{
+            width: 15em;
+            height: 28em;
+            position: absolute;
+            z-index: -1;
+            left: 22.4em;
+            top: 6em;
+        }
+        .top-div{
+            position: absolute;
+            left: 28em;
+            top: 2em;
+            width: 9em;
+            height: 1em;
+            background-color: $color1;
+        }
+        .img2{
+            position: absolute;
+            left: 37.5em;
+            height: 35em;
+            width: 40em;
+
+        }
+    }
+    .div2{
+        font-family: sans-serif;
+        background-color: $color7;
+        position: absolute;
+        top: 38.7em;
+        left: 42.4em;
+        width: 25em;
+        h1{
+            color: $color1;
+        }
+    }
+    .div3{
+        position: relative;
+        background-color: $color7;
+        width: 27em;
+        height: 6em;
+        top: 38.7em;
+        left: 55.8em;
+    }
+    .div4{
+        @include div;
+        h1{
+            @include h1;
+            position: relative;
+            margin-right: 50em;
+        }
+        p{
+            @include p;
+        }
+        img{
+            position: relative;
+            width: 3em;
+            height: 16em;
+            left: 70em;
+            top: -60em;
+        }
+    }
+    .div5{
+        @include div2;
+        top: 100em;
+        left: 20em;
+    }
+    .div6{
+        position: absolute;
+        top: 72em;
+        left: 20em;
+        font-family: sans-serif;
+        font-size: 1.5em;
+        button{
+            font-weight: 600;
+            background: $color1;
+            outline: none;
+            border: none;
+            padding: 1em  2em;
+            font-size: .6em;
+            color: $color7;
+            position: absolute;
+            left: 8em;
+            &:hover{
+                background-color: rgb(218, 0, 0);
+            }
+        }
+    }
+    .div7{
+        width: 1.2em;
+        height: 13em;
+        top: 108em;
+        left: 10em;
+        position: absolute;
+        background-color: $color12;
+    }
+    .div8{
+        position: absolute;
+        top: 125em;
+    }
+    .div9{
+        position: absolute;
+        background-color: $color11;
+        width: 50em;
+        height: 34.67em;
+        top: 165em;
+        left: 7em;
+        .img3{
+            position: absolute;
+            border-bottom: 12em solid $color1;
+        }
+        h1{
+            position: absolute;
+            color: $color7;
+            font-family: sans-serif;
+            font-size: 5.5em;
+            top: 3em;
+            left: .47em;
+        }
+    }
+    .div10{
+        position: absolute;
+        width: 22em;
+        height: 30em;
+        overflow:hidden ;
+        background-color: $color11;
+        color: $color7;
+        font-family: sans-serif;
+        line-height: 1.6em;
+        top: 157.15em;
+        left: 54.3em;
+        font-size: 1.05em;
+    }
+    .top-div2{
+        position: absolute;
+        top: 166em;
+        left: 45em;
+        width: 9em;
+        height: 1em;
+        background-color: $color1;
+    }
+    .img4{
+        position: absolute;
+        top: 204em;
+        left: 7em;
+    }
+    .h4{
+        position: absolute;
+        top: 36.5em;
+        left: 4.5em;
+        font-family: sans-serif;
+        font-size: 6.5em;
+    }
+    .p2{
+        font-family: sans-serif;
+        position: absolute;
+        top: 245em;
+        left: 21em;
+        right: 17em;
+        // text-align: center;
+        letter-spacing: .1em;
+        line-height: 1.5em;
+    }
+    .div11{
+        @extend .div5;
+        height: 1em;
+        top: 250em;
+        left: 13em;
+    }
+}
+*{
+
+Shohjahon, [25/11/2023 11:53]
+margin: 0;
+    padding: 0;
+
+Ulugbekv, [25.11.2023 13:56]
+box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .6s;
+    padding: 25px 100px;
+    z-index: 1;
+    .logo{
+        position: relative;
+        font-weight: 700;
+        color: #000;
+        text-decoration: none;
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: .6s;
+        font-family: sans-serif;
+    }
+    ul{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+        li{
+            position: relative;
+            list-style: none;
+            a{
+                position: relative;
+                margin: 0 15px ;
+                text-decoration: none;
+                color: #000;
+                letter-spacing: 2px;
+                font-weight: 500;
+                transition: .6s;
+            }
+        }
+    }
+
+}
+header.sticky{
+    padding: 25px 100px;
+    background: rgb(151, 151, 151);
+    ul{
+        li{
+            a{
+                color: white;
+            }
+        }
+    }
+    .logo{
+        color: white;
+    }
+}
+@media  only screen and (max-width:1334px) {
+    .div1{
+        width: 83em;
+    }
+    .div4{
+        width: 10em;
+    }
+    header{
+        width: 99.7%;
+    }
+    .div8{
+        img{
+            width: 83em;
+        }
+    }
+}
+@media only screen and (max-width:1162px){
+    .p2{
+        position: relative;
+        left: 200px;
+    }
+    header{
+        position: fixed;
+    }
+}
+
+Ulugbekv, [25.11.2023 13:56]
+$color1: red;
+$color2: blue;
+$color3: yellow;
+$color4: green;
+$color5: rgb(0, 255, 0);
+$color6: rgb(111, 0, 255);
+$color7: white;
+$color8: rgb(255, 0, 98);
+$color9: rgb(255, 0, 191);
+$color10: rgb(204, 0, 255);
+$color11: black;
+$color12: rgb(107, 107, 114);
+
+@mixin div{
+    position: absolute;
+    top: 55em;
+    width: 84em;
+    height: 50em;
+    background: $color11;
+}
+@mixin h1{
+    position: relative;
+    left: 9em;
+    top: -4em;
+    color: $color7;
+    font-size: 5.5em;
+    font-family: sans-serif;
+    width: 1em;
+}
+@mixin p{
+    color: $color7;
+    font-family: sans-serif;
+    position: relative;
+    top: -22em;
+    left: 50em;
+    margin-right: 60em;
+    line-height: 1.5em;
+}
+@mixin div2{
+    width: 60em;
+    height: 1.5em;
+    background-color: $color1;
+    position: absolute;
+    top: 30em;
+}

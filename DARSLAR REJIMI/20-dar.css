@@ -1,0 +1,37 @@
+/* .q{
+    width: 200px;
+    height: 200px;
+    border: 1px solid  red;
+    transform: rotate(200px, 300px);
+    margin-left: 300px;
+    margin-top: 200px;
+    transition: all 1s;
+}.q:hover{
+    transform: rotate(90deg);
+}
+.a{
+    width: 200px;
+    height: 200px;
+    border: 1px solid  red;
+    transform: rotate(200px, 300px);
+    margin-left: 900px;
+    margin-top: 200px;
+    transition: all 0.5s;
+}
+a:hover{
+     transform: translate(2,1 );
+     */
+.z{
+    width: 20px;
+    height: 20px;
+    margin-top: 100px;
+}
+
+
+.w{
+    width: 300px;
+    height: 300px;
+    margin-left: 300px;
+    margin-top: 200px;
+    border: 1px solid red;
+}

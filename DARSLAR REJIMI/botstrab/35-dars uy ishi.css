@@ -1,0 +1,130 @@
+.play: inline-block{
+    .padding: 8px 16px 10px 16px;
+    ..font-size: 14px;
+    .font-weight: 500;
+    .line-height: 1;
+    .color: #444444;
+    .margin: 0 3px 10px 3px;
+    .transition: all ease-in-out 0.3s;
+    .background: #f4f4f4;
+    .border-radius: 50px;
+}
+.col {
+    width: 40%;
+    margin: 10px;
+}
+
+.img-1 {
+    overflow: hidden;
+    height: 24em;
+}
+
+.img-1 img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    transition: .4s;
+    transition-delay: .2s;
+}
+
+.img-1:hover img {
+    transform: translateY(-20px);
+}
+
+.img-1:hover .overlay {
+    position: relative;
+    transform: translateY(-100px);
+}
+
+.img-1 .overlay {
+    background: rgb(0, 153, 97);
+    color: white;
+    position: relative;
+    transition: .5s;
+}
+
+.img-1 .overlay .icons {
+    position: relative;
+    left: 15em;
+}
+
+.img-1 .overlay .icons svg {
+    width: 2em;
+    height: 2em;
+    position: relative;
+    top: -2em;
+    fill: white;
+    transition: .5s;
+
+    &:hover {
+        fill: blue;
+    }
+}
+
+.div-3 {
+    position: relative;
+    width: 100vw;
+    height: 190vh;
+    background: #eeeeee;
+    top: 23em;
+
+    .text {
+        position: relative;
+        top: 5em;
+        left: 5em;
+        color: rgb(68, 68, 68);
+    }
+
+    .span {
+        display: inline-block;
+        position: relative;
+        z-index: 2;
+        width: 3em;
+        height: .2em;
+        background: rgb(0, 153, 97);
+    }
+}
+
+[type="text"] {
+    display: inline;
+    width: 20em;
+    padding: 7px;
+    outline: none;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+[type="email"] {
+    display: inline;
+    width: 20em;
+    position: relative;
+    left: 22em;
+    top: -2.65em;
+    padding: 7px;
+    outline: none;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+[type="name"] {
+    width: 42em;
+    padding: 7px;
+    position: relative;
+    top: -1em;
+    outline: none;
+    border: 1px solid rgb(204, 204, 204);
+}
+input{
+    transition: .5s;
+}
+textarea{
+        border: 1px solid rgb(204, 204, 204);
+        width: 42em;
+        height: 10.5em;
+        outline: none;
+}
+input:focus{
+    border: 1px solid rgb(0, 255, 0);
+}
+textarea:focus{
+    position: relative;
+    border: 1px solid rgb(0, 255, 0);
+}

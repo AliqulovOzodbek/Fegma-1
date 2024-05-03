@@ -1,0 +1,5 @@
+.container {
+    display: flex;
+    justify-content: flex-start; /* chap tomonda joylashishi */
+    align-items: flex-start; /* yuqori bo'ylab joylashishi */
+}

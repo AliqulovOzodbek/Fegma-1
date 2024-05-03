@@ -1,0 +1,22 @@
+.a  {
+    width: 2500px;
+    height: 2500PX;
+    display: inline-block;
+}
+.b {
+border: 5px solid;
+    border-radius: 100%;
+    justify-content: end;
+    margin: 14%;
+    width: 1500px;
+    height: 1500px;
+   
+  
+}
+.c {
+   font-size: 200px ;
+
+}
+.d {
+    font-size: 150px;
+}

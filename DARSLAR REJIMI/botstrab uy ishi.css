@@ -1,0 +1,39 @@
+.mt-5{
+    font-size: 50px;
+  font-family: sans-serif;
+}
+.my-6{
+   font-size: 18px;
+}
+.q1{
+    margin-left: 80px;
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    border:  1px solid rgb(135, 132, 132);
+}
+.ozodbek{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+  
+    margin-top: 20px;
+
+}
+.q2{
+    margin-left: 580px;
+    margin-top: -400px;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    border:  1px solid rgb(135, 132, 132);
+}
+.q3{
+    margin-left: 500px;
+    margin-top: -300px;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    border:  1px solid rgb(135, 132, 132);
+}

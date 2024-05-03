@@ -1,0 +1,24 @@
+body{
+    background: black;
+}
+     .grid-container {
+        display: grid;
+        position: relative;
+        grid-template-columns: auto 30px auto;
+        gap: 10px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+       margin-top: 200px;
+       margin-left: 300px;
+       margin-right: 300px;
+        font-family: cursive;
+        color: #ffffff;
+        grid-template-rows: auto 200px;
+        
+      }
+      .grid-container  div {
+        background-color: rgba(81, 0, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }

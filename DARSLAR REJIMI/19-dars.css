@@ -1,0 +1,21 @@
+.q{
+    text-align: center;
+     width: 200px;
+     height: 60px;
+     background-color: blue;
+     border-radius: 100px;
+     margin-left: 900px;
+     margin-top: 300px;
+     font-family:sans-serif;
+     box-shadow: 10px  10px 10px 10px  gold;
+    
+}
+.q:hover{
+     background-color: red;
+    font-family: serif;
+
+
+}
+.q:active{
+box-shadow: 20px 20px 20px 20px   black ;
+}

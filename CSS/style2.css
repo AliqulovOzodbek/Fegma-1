@@ -1,0 +1,67 @@
+.btn {
+    color: black;
+    background-color: rgb(191, 191, 219);
+    border: 2px solid green;
+    border-radius: 7px;
+    font-size: 30px;
+
+}
+.btn:hover{
+    color: rgb(red, green, rgb(17, 17, 80));
+    background-color: yellow;
+    border-style: dashed;
+
+
+}
+.btn:active{
+    color:  rgb(23,65, 58);
+    background-color: blue;
+    border-style: dotted;
+
+}
+.oz {
+    color: black;   
+    background-color: rgb(68, 234, 18);
+    border: 1px solid rgb(25, 27, 25);
+    border-radius: 1px;
+    font-size: 1px;
+    font-size: 30px;
+
+}
+.oz:hover{
+    color: rgb(rgb(72, 14, 245), rgb(0, 0, 0), blue);
+    background-color: rgb(0, 149, 255);
+    border-style: dashed;
+
+
+}
+.oz:active{
+    color:  rgb(23,65, 58);
+    background-color: rgb(208, 14, 14);
+    border-style: dotted;
+
+}
+.Ozodbek {
+    color: rgb(0, 0, 0);
+    background-color: red;
+   
+   
+    border-radius:1px ;
+    font-size: 20px;
+    
+}
+.Ozodbek:hover {
+    color: rgb(241, 151, 16);
+    background-color: rgb(255, 251, 251);
+     border-style:dashed ;
+}
+.Ozodbek:active {
+    color: rgb(226, 255, 197);
+    background-color: rgb(9, 11, 4);
+    border-style:dotted;
+}
+.uz  {color: rgb(234, 18, 18);
+    background-color:rgb(227, 255, 17) ;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,147 @@
+
+.box{
+    position: relative;
+    background-color: rgb(199, 29, 29);
+    width:15%;
+    height: 200px;
+    border-left-width: 20%;
+    border-bottom-width: 20%;
+    border: 2px solid;
+    transform: rotateX(70deg) rotateY(10deg) rotateZ(135deg);
+    margin-left: 20%;
+    margin-top: 10%;
+    transition: .5s;
+  }
+  .box2{
+    position: relative;
+    background-color: rgb(2, 6, 7);
+    width:19.5%;
+    height: 200px;
+    transform: rotateX(18deg) rotateY(59deg) skew(4deg); 
+    border: 2px solid;
+    margin-top: -7%;
+    margin-left: 12.6%; 
+     box-shadow: -10px 12px 12px  10px rgb(224, 224, 224);
+     transition: .5s;
+  }
+  .box3{
+    position: relative;
+    background-color:  rgb(41, 216, 2);
+    width:21%;
+    height: 193px;
+    transform: rotateX(-6.4deg) rotateY(59deg) skew(4deg); 
+    margin-top: -13.1%;
+    margin-left: 22.4%;
+    border: 2px solid; 
+    box-shadow: 0 17px   10px rgb(218, 218, 218);
+    transition: .5s;
+  
+  }
+  .div{
+  }
+  .div:hover{
+     .box{
+      height: 300px;
+     }
+     .box2{
+      height: 300px;
+     }
+     .box3{
+      width: 30%;
+     }
+  }
+  
+  
+  .box4{
+    position: relative;
+    background-color: green;
+    width: 20%;
+    margin-top: 30%;
+    height: 200px;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    transition: .5s;
+  }
+  .box5{
+    background-color: green;
+    margin-top: -7%;
+    width: 3%;
+    height: 200px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    transition: .5s;
+  }
+  .box6{
+    background-color: rgb(97, 255, 97);
+    width: 17%;
+    height: 130px;
+    margin-left: 3%;
+    margin-top: -8%;
+    border-bottom: 2px dashed rgb(88, 88, 88);
+    border-left: 2px dotted;
+    transition: .5s;
+  }
+  .box7{
+    background-color:  rgb(97, 255, 97);
+    width: 7%;
+    height: 250px;
+    margin-left: 20%;
+    margin-top: -18.9%;
+    border-bottom: 2px dashed rgb(88, 88, 88);
+    border-right: 2px dashed rgb(88, 88, 88);
+    transition: .5s;
+  }
+  
+  .box8{
+    background-color: green;
+    width: 20%;
+    height: 300px;
+    border: 2px solid;
+    margin-left: 50%;
+    margin-top: -25%;
+    transition: .5s;
+  }
+  .box9{
+    position: relative;
+    background-color: rgb(97, 255, 97) ;
+    width: 30%;
+    height: 200px;
+    border: 2px dashed rgb(83, 83, 83);
+    margin-left:52%;
+    margin-top: -13%;
+    transition: .5s;
+  }
+  .div2{
+    transition: .5s;
+  }
+  .div2:hover{
+      .box4{
+        transform: scale(1.1);
+      }
+      .box5{
+        transform: scale(1.1);
+        border: none;
+      }
+      .box6{
+        transform: scale(1.1);
+      }
+      .box7{
+        transform: scale(1.1);
+      }  
+  
+  }
+      .box8:hover{
+        transform: scale(1.1);
+        .box9{
+          transform: scale(1.1);
+        }
+      
+    }
+    .box9:hover{
+      transform: scale(1.1);
+      .box8{
+        transform: scale(1.1);
+      }
+      
+    }

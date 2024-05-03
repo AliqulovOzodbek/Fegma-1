@@ -1,0 +1,98 @@
+.f{
+    
+    font-family: sans-serif;
+    font-size: 100px;
+    display: inline-block;
+
+}
+.d1{
+    position: relative;
+  overflow: hidden;
+    width: 100px;
+    height: 110px;
+    margin-top: 200px;
+    margin-left: 500px;
+    transition: all 1s;
+
+}
+.d1:hover{
+    .o{
+        color: rgb(190, 19, 19);
+    }
+    .h{
+        color: rgb(177, 177, 27);
+    }
+    .j{
+        color: rgb(65, 185, 18);
+    }
+    .a{
+        color: rgb(23, 204, 165);
+    }
+    .h2{
+        color: rgb(19, 140, 196);
+    }
+    .o1{
+        color: rgb(5, 41, 172);
+    }
+    .n{
+        color: rgb(180, 14, 160);
+    }
+    width: 500px;
+   
+}
+.sh{
+    color: rgb(12, 74, 245);
+}
+.d2{
+    position: relative;
+    overflow: hidden;
+      width: 80px;
+      height: 110px;
+      margin-top: 200px;
+      margin-left: 500px;
+      transition: all 1s;
+}
+.a{
+    font-family: sans-serif;
+    font-size: 100px;
+    display: inline-block;
+
+}
+.d2:hover{
+    .q{
+        color: chartreuse;
+    }
+    .c{
+        color: darkblue;
+    }
+    .z{
+        color: darkturquoise;
+    
+    }
+    .w{
+        color: gold;
+
+    }
+    .s{
+        color: darkred;
+    }
+    .x{
+        color: lightgreen;
+    }
+    .e{
+        color: springgreen;
+    }
+    .d{
+        color: deeppink;
+    }
+    width: 500px;
+}
+.q{
+    color: black;
+}
+.ar{
+    border-radius: 10px;
+    
+    background-color: red;
+    color: aliceblue;
+}

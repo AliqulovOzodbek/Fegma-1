@@ -1,0 +1,31 @@
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .chat-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #0088cc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .chat-log {
+    min-height: 200px;
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+  }
+  
